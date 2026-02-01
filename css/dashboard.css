@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2f5;
+}
+
+header {
+  background: #0a2540;
+  color: white;
+  padding: 18px;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* BUTTONS */
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.center-buttons button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #1e5a88;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.center-buttons button:hover {
+  background: #164567;
+}
+
+/* SECTIONS */
+.section {
+  display: none;
+  width: 80%;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+/* MAP */
+#mapContainer {
+  display: none;
+  width: 80%;
+  margin: 20px auto;
+}
+
+#map {
+  height: 400px;
+  border-radius: 10px;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-box input {
+  padding: 8px;
+}
